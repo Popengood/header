@@ -1,0 +1,12 @@
+.icon-css {
+	display: inline-block;
+	background: url("../images/sprite.css.svg") no-repeat;
+}
+
+{{#shapes}}
+.{{base}} {
+	width:{{width.inner}}px;
+	height:{{height.inner}}px;
+	background-position: {{position.relative.x}}% {{position.relative.y}}%;
+}
+{{/shapes}}

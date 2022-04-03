@@ -1,0 +1,27 @@
+.icon-stack {
+	display: inline-block;
+	flex-shrink: 0;
+	background-repeat: none;
+	background-position: 50%;
+	background-size: cover;
+}
+.arrow {
+	width: 7px;
+	height: 7px;
+	background-image: url('../images/sprite.stack.svg#arrow');}
+.balance {
+	width: 18px;
+	height: 16px;
+	background-image: url('../images/sprite.stack.svg#balance');}
+.cart {
+	width: 19px;
+	height: 18px;
+	background-image: url('../images/sprite.stack.svg#cart');}
+.header-logo {
+	width: 210px;
+	height: 134px;
+	background-image: url('../images/sprite.stack.svg#header-logo');}
+.star {
+	width: 14px;
+	height: 14px;
+	background-image: url('../images/sprite.stack.svg#star');}

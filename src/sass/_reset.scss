@@ -1,0 +1,37 @@
+/* reset */
+html, body, div, span, h1, h2, h3, h4, h5, p, a, img, strong, ol, ul, li, form, button, input, label {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+a, button, div, input, select, textarea, :focus, :active {
+	outline:none;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	background-color: #fff;
+}
+textarea {
+	display: block;
+	resize:none;
+	border: none;
+	overflow-y: hidden;
+}
+ol, ul {
+	list-style:none;
+}
+img {
+	width: 100%;
+	height: auto;
+	display:block;
+	border:none;
+}

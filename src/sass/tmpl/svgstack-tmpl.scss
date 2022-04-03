@@ -1,0 +1,13 @@
+.icon-stack {
+	display: inline-block;
+	flex-shrink: 0;
+	background-repeat: none;
+	background-position: 50%;
+	background-size: cover;
+}
+{{#shapes}}
+.{{base}} {
+	width: {{width.inner}}px;
+	height: {{height.inner}}px;
+	background-image: url('../images/sprite.stack.svg#{{base}}');}
+{{/shapes}}
